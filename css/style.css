@@ -1,5 +1,6 @@
 body {
-    background-image: url("/img/AnimeClassRoom.jpg");
+    @import url();
+    background-image: url("img/AnimeClassRoom.jpg");
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(34, 34, 34) !important;
     color: white !important;
@@ -18,24 +19,25 @@ strong {
     color: red;
 }
 #menu {
-    text-align: center;
-    
+    text-align: center;  
 }
 .Cbutton {
     width: 100px;
     height: 30px;
 }
 .removetrasp {
-
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-    
     height: 98%;
 }
 .tabelle {
+    text-align: center;
     width: 100%;
     background-color: rgb(219, 219, 219);
     color: rgb(132, 0, 255);
+}
+#menu {
+    text-align: center;  
 }
 #x {
     color: aqua;
