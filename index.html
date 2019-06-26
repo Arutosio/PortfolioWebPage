@@ -2,27 +2,31 @@
     <head>
         <title>Arutosio</title>
         <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <script type=”text/javascript” src=/js/jquery-3.4.1.min.js></script>
+        <script type=”text/javascript” src=/js/angular-1.7.min.js></script>
+        <script type=”text/javascript” src=/js/viewsBuilder.js></script>
+        <script type=”text/javascript” src=/js/controller.js></script>
     </head>
     <body>
-        <div class="removetrasp">
+        <div id="IdMainDiv" class="removetrasp">
             <h1>Arutosio Page</h1>
+            <!-- con queste tag fai un commento che non viene considerato nella lettura del file -->
             <table id="menu">
-                    <tr>
-                        <th>
-                            <h2><a style="color:aliceblue" href="http://www.google.it">Google</a></h2>
-                        </th>
-                        <th>
-                            <h2><a style="color:rgb(0, 221, 0)" href="https://www.w3schools.com/tags/default.asp">W3School</a></h2>
-                        </th> 
-                        <th> <!-- con queste tag fai un commento che non viene considerato nella lettura del file -->
-                            Fai tu xD
-                        </th>
-                    </tr>
-                </table>
-            <p><strong>Working in progress...</strong> </p>
+                <tr>
+                    <th>
+                        <button id="#IdButtonAboutMe" class="CButton" type="button">About Me</button> 
+                    </th>
+                    <th>
+                        <button id="IdButtonGallery" class="CButton" type="button">Gallery</button> 
+                    </th> 
+                    <th> <!-- con queste tag fai un commento che non viene considerato nella lettura del file -->
+                        <button id="IdButtonHref" Class="CButton" type="button">HRef</button> 
+                    </th>
+                </tr>
+            </table>
             <input value="asdfasdf"></input><button>:D</button>
             <h2><a id="x" href="link.html">Link Href Null</a></h2>
-            <table class="tabelle">
+            <table id="IdResTabella" class="tabelle">
                 <tr>
                     <td><h3><a style="color:red" href="https://www.youtube.com/user/arutosio">YouTube</a></h3></td>
                     <td><h3><a style="color:rgb(98, 0, 255)" href="https://www.twitch.tv/arutosio">Twitch</a></h3></td>
@@ -32,6 +36,11 @@
                     <td><h3><a style="color:rgb(53, 53, 53)" href="https://github.com/Arutosio">GitHub</a></h3></td>
                 </tr>
             </table>
+            <iframe id="IdSoundCloud" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/382913960&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
         </div>
+        <script>
+            var textRes = document.createTextNode ="aSDFASDFASD"; 
+            document.getElementById("IdResTabella").appendChild(textRes);
+        </script>
     </body>
 </html>

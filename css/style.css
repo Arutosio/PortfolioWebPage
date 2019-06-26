@@ -14,15 +14,24 @@ div {
 strong {
     color: red;
 }
+iframe {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(34, 34, 34) !important;
+    color: white !important;
+}
+
 #menu {
     text-align: center;
     width: 100%
+}
+button {
+    
 }
 .removetrasp {
     text-align: center;
     background-color: black;
     opacity: 0.8;
-    height: 100%;
+    height: 98%;
 }
 .tabelle {
     width: 100%;
@@ -31,4 +40,29 @@ strong {
 }
 #x {
     color: aqua;
+}
+#IdMainBar {
+    display: block;
+    background-color: black;
+    width: 100%;
+}
+#IdTittleBar {
+    font-size: 150%;
+    margin-left: 3%;
+    text-align: left;
+}
+#IdMenuButton {
+    background-color:gray;
+    border-color: gray;
+    margin-right: 3%;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    border-style: outset;
+    border-style: solid;
+    border-width: 0px 16px 0px 16px;
+}
+#IdSoundCloud {
+
+    margin-top: 39.5%;
 }
