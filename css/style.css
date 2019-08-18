@@ -1,5 +1,5 @@
 body {
-    background-image: url("/img/images/bg.jpg");
+    background-image: url("img/images/bg.jpg");
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Courier New', Courier, monospace;
@@ -24,7 +24,7 @@ body {
     background:rgba(16, 77, 21, 0.75);
 }
 .jumbotron#download{
-    /*background-image: url("/img/images/AnimeClassRoom.jpg");*/
+    /*background-image: url("img/images/AnimeClassRoom.jpg");*/
     background-color: rgba(0, 0, 0, 0.75);
 }
 footer{
