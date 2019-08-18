@@ -1,4 +1,40 @@
 body {
+    background-image: url("/img/images/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(34, 34, 34) !important;
+    color: #fff !important;
+    text-align: center;
+}
+.jumbotron{
+    color:#fff;
+    text-align:center;
+    margin:0
+}
+.jumbotron#intro{
+    height:calc(100vh - 51px);
+    background-color: rgba(0, 0, 0, 0.75);
+    /*
+    background:-webkit-linear-gradient(45deg,#7a1d73 0%,#852d51 100%);
+    background:linear-gradient(45deg,#7a1d73 0%,#852d51 100%);
+    */
+}
+.jumbotron#featuredon{
+    background:rgba(16, 77, 21, 0.75);
+}
+.jumbotron#download{
+    /*background-image: url("/img/images/AnimeClassRoom.jpg");*/
+    background-color: rgba(0, 0, 0, 0.75);
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.75);
+    color:#fff;
+    font-size:12px;
+    text-align:center
+}
+/*
+body {
     background-image: url("img/AnimeClassRoom.jpg");
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(34, 34, 34) !important;
@@ -16,6 +52,11 @@ div {
 }
 strong {
     color: red;
+}
+.jumbotron{
+    color:#fff;
+    text-align:center;
+    margin:0
 }
 .Cbutton {
     width: 100px;
@@ -71,3 +112,4 @@ strong {
     frameborder: no;
     allow: autoplay;
 }
+*/

@@ -1,55 +1,109 @@
-<html>
+<!-- 
+    <link rel="stylesheet" href="/stylesheets/main.css">
+-->
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="shortcut icon" href="img/ArutosioIcon.ico">
-        <meta name="description" content="Personal Website">
-        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-        <meta name="author" content="Arutosio">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Arutosio</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script type=”text/javascript” src=js/jquery-3.4.1.min.js></script>
-        <script type=”text/javascript” src=js/angular-1.7.min.js></script>
-        <script type=”text/javascript” src=js/viewsBuilder.js></script>
-        <script type=”text/javascript” src=js/controller.js></script>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Arutosio Website</title>
+        <link rel="shortcut icon" href="/img/icons/ArutosioIcon.ico">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/lib/fancybox-master/css/jquery.fancybox.min.css">
+        <link rel="stylesheet" type="text/css" href="/lib/bootstrap/bootstrap-4.3.1-dist/css/bootstrap.min.css">
     </head>
     <body>
-        <div id="IdMainDiv" class="removetrasp">
-            <!-- con queste tag fai un commento che non viene considerato nella lettura del file -->
-            <table id="menu">
-                <tr>
-                    <th>
-                        <h1>Arutosio Page</h1>
-                    </th>
-                    <td>
-                        <button id="#IdButtonAboutMe" class="CButton" type="button">About Me</button> 
-                    </th>
-                    <th>
-                        <button id="IdButtonGallery" class="CButton" type="button">Gallery</button> 
-                    </th> 
-                    <th> <!-- con queste tag fai un commento che non viene considerato nella lettura del file -->
-                        <button id="IdButtonHref" Class="CButton" type="button">HRef</button> 
-                    </th>
-                    <th>
-                        <input value=""></input><button>Done</button>
-                    </th>
-                </tr>
-            </table>
-            <table id="IdResTabella" class="table">
-                <tr>
-                    <td><h3><a style="color:red" href="https://www.youtube.com/user/arutosio">YouTube</a></h3></td>
-                    <td><h3><a style="color:rgb(98, 0, 255)" href="https://www.twitch.tv/arutosio">Twitch</a></h3></td>
-                    <td><h3><a style="color:rgb(0, 174, 255)" href="https://twitter.com/arutosio">Twitter</a></h3></td>
-                </tr>
-                <tr>
-                    <td><h3><a style="color:rgb(53, 53, 53)" href="https://github.com/Arutosio">GitHub</a></h3></td>
-                </tr>
-            </table>
-            <iframe id="IdSoundCloud" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/291271263&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-        </div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="/img/images/logo.png" width="44" class="img-fluid" alt="Responsive image">
+                Arutosio Website
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Reference
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="https://www.youtube.com/user/arutosio">Youtube</a>
+                            <a class="dropdown-item" href="https://www.twitch.tv/arutosio">Twitch</a>
+                            <a class="dropdown-item" href="https://github.com/Arutosio">GitHub</a>
+                            <a class="dropdown-item" href="https://twitter.com/arutosio">Twitter</a>
+                            <a class="dropdown-item" href="https://myanimelist.net/profile/Arutosio">MyAnimeList</a>
+                            <a class="dropdown-item" href="">Discord</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Section 1 -->
+        <section class="jumbotron" id="intro">
+            <div class="container">
+                <h1>Something</h1>
+                <p>kjdsjahsdfhasdf alksdfhasd ashd fajsdjfhajksdhjk</p>
+                <div class="card mb-3 bg-dark" style="max-width: max;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <a href="/img/images/AnimeClassRoom.jpg" data-fancybox="images" data-caption="My caption">
+                                <img src="/img/images/AnimeClassRoom.jpg" class="card-img" alt="...">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </section>
+        <!-- Section 2 -->
+        <section class="jumbotron" id="featuredon">
+            <div class="container-fluid">
+                ...
+            </div>
+        </section>
+        <!-- Section 3 -->
+        <section class="jumbotron" id="download">
+        </section>
+        <!-- Footer -->
+        <footer>
+            <p class="container">
+                This website is built with ♥ by <a href="https://github.com/Arutosio">@Arutosio</a>
+            </p>
+        </footer>
         <script>
-            var textRes = document.createTextNode ="aSDFASDFASD"; 
-            document.getElementById("IdResTabella").appendChild(textRes);
+            (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-67310953-2', 'auto');
+            ga('send', 'pageview');
         </script>
+        <script src="/js/jquery/jquery-3.4.1.min.js"></script>
+        <script src="/lib/jquery/jquery-3.4.1.min.js"></script>
+        <script src="/lib/bootstrap/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+        <script src="/lib/fancybox-master/js/jquery.fancybox.min.js"></script>
+        <script src="/lib/popper/popper.min.js"></script>
+        <script src="/js/angular-1.7.min.js"></script>
+        <script src="/js/viewsBuilder.js"></script>
+        <script src="/js/controller.js"></script>
     </body>
 </html>
