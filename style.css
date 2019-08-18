@@ -1,10 +1,10 @@
 body {
+    background-color: rgb(34, 34, 34) !important;
     background-image: url("img/images/bg.jpg");
     background-size: cover; /* Resize the background image to cover the entire container */
     background-attachment: fixed;
     background-position: center;
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(34, 34, 34) !important;
     color: #fff !important;
     text-align: center;
 }
@@ -12,13 +12,14 @@ body {
     width: 20px;
 }
 .jumbotron{
+    background-color: rgba(0, 0, 0, 0.5);
     color:#fff;
     text-align:center;
     margin:0
 }
 .jumbotron#intro{
     height:calc(100vh - 51px);
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.35);
     /*
     background:-webkit-linear-gradient(45deg,#7a1d73 0%,#852d51 100%);
     background:linear-gradient(45deg,#7a1d73 0%,#852d51 100%);
@@ -27,20 +28,20 @@ body {
 .jumbotron#featuredon{
     /*
     height:calc(100vh - 85.3px);
-    */
     background-color: rgb(20, 20, 20);
-    background-image: url("img/images/mnSee.png");
-    background-size: 90%;
+    */
+    background-image: url("img/images/denpan.jpg");
+    background-size: cover; /* Resize the background image to cover the entire container */
     background-attachment: fixed;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
 }
 .jumbotron#download{
-    height:calc(100vh - 85.3px);
     /*
+    height:calc(100vh - 85.3px);
     background-image: url("img/images/AnimeClassRoom.jpg");
     */
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.35);
 }
 footer{
     background-color: rgba(145, 0, 190, 0.75);
