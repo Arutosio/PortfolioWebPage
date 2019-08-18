@@ -1,6 +1,6 @@
 body {
     background-image: url("img/images/bg.jpg");
-    background-size: cover;
+    background-size: cover; /* Resize the background image to cover the entire container */
     background-attachment: fixed;
     background-position: center;
     font-family: 'Courier New', Courier, monospace;
@@ -8,10 +8,8 @@ body {
     color: #fff !important;
     text-align: center;
 }
-#svg {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
+.logohref {
+    width: 20px;
 }
 .jumbotron{
     color:#fff;
@@ -27,8 +25,15 @@ body {
     */
 }
 .jumbotron#featuredon{
+    /*
     height:calc(100vh - 85.3px);
-    background:rgba(16, 77, 21, 0.75);
+    */
+    background-color: rgb(20, 20, 20);
+    background-image: url("img/images/mnSee.png");
+    background-size: 70%;
+    background-attachment: fixed;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
 }
 .jumbotron#download{
     height:calc(100vh - 85.3px);
@@ -38,7 +43,7 @@ body {
     background-color: rgba(0, 0, 0, 0.75);
 }
 footer{
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(145, 0, 190, 0.75);
     color:#fff;
     font-size:12px;
     text-align:center;
