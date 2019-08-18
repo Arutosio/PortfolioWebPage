@@ -2,7 +2,7 @@
     <link rel="stylesheet" href="/stylesheets/main.css">
 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,17 +25,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro"> Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#featuredon"> Features </a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <li class="dropdown show bg-dark">
+                        <a class="btn btn-secondary dropdown-toggle bg-dark" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Reference
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <a class="dropdown-item" href="https://www.youtube.com/user/arutosio">Youtube</a>
                             <a class="dropdown-item" href="https://www.twitch.tv/arutosio">Twitch</a>
                             <a class="dropdown-item" href="https://github.com/Arutosio">GitHub</a>
@@ -48,6 +48,13 @@
                     </li>
                 </ul>
             </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="https://github.com/Arutosio" id="divID" ng-init="imgsrc='img/icons/GitHub-Mark-120px-plus.png'" ng-mouseover="imgsrc='img/icons/GitHub-Mark-Light-120px-plus.png'" ng-mouseout="imgsrc='img/icons/GitHub-Mark-120px-plus.png'">
+                        <img ng-src="{{imgsrc}}" width="44" class="img-fluid" alt="Responsive image">
+                    </a>
+                </li>
+            </ul>
         </nav>
         <!-- Section 1 -->
         <section class="jumbotron" id="intro">

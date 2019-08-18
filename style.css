@@ -8,6 +8,11 @@ body {
     color: #fff !important;
     text-align: center;
 }
+#svg {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
 .jumbotron{
     color:#fff;
     text-align:center;
@@ -22,9 +27,11 @@ body {
     */
 }
 .jumbotron#featuredon{
+    height:calc(100vh - 85.3px);
     background:rgba(16, 77, 21, 0.75);
 }
 .jumbotron#download{
+    height:calc(100vh - 85.3px);
     /*
     background-image: url("img/images/AnimeClassRoom.jpg");
     */
@@ -34,7 +41,13 @@ footer{
     background-color: rgba(0, 0, 0, 0.75);
     color:#fff;
     font-size:12px;
-    text-align:center
+    text-align:center;
+}
+footer p{
+    margin:0
+}
+footer a,footer a:active,footer a:focus,footer a:hover{
+    color:#fff
 }
 /*
 body {

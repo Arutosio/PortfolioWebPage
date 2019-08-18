@@ -1,5 +1,10 @@
 $(document).ready(function()
 {
+    $('#logogit').click(function(){
+        if(($(this).attr('src')!='img/icons/GitHub-Mark-120px-plus.png')) {
+            $(this).attr('class','img/icons/GitHub-Mark-Light-120px-plus.png');
+        }
+    });
     var elButt = document.getElementById('IdMainDiv');
     $('#IdButtonAboutMe').click(function(){
         var newElement = document.createElement('table').textContent = "Repleace DONE";
