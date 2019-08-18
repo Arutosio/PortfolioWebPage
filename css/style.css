@@ -1,5 +1,5 @@
 body {
-    background-image: url("img/images/bg.jpg");
+    background-image: url("/img/images/bg.jpg");
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Courier New', Courier, monospace;
